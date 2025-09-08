@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.pimg1{
+    background-image: url(images/img1.jpg);
+}
+
+.pimg2{
+    background-image: url(images/img2.png);
+}
+
+.pimg3{
+    background-image: url(images/img3.jpg);
+}
+
+.pimg1, .pimg2, .pimg3 {
+    width: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.pimg2, .pimg3 {
+    min-height: 400px;
+}
+
+.ptext {
+    text-align: center;
+    color: white;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.textbg {
+    background: #313534;
+    color: #fff;
+    padding: 20px;
+}
+
+.section{
+    padding: 10px;
+    text-align: center;
+}
+
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+}
